@@ -1,0 +1,30 @@
+{
+  "name": "coding-an-api",
+  "version": "1.0.0",
+  "description": "Express API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leokorrr/coding-an-api.git"
+  },
+  "author": "Leon Kochetcov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leokorrr/coding-an-api/issues"
+  },
+  "homepage": "https://github.com/leokorrr/coding-an-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.15",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "proxy": "http://localhost:3000/"
+}
